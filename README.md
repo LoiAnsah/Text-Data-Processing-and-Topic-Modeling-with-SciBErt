@@ -1,6 +1,8 @@
 # Text-Data-Processing-and-Topic-Modeling-with-SciBErt
 This project builds an end-to-end NLP workflow for scientific papers. Using SciBERT and BERT-base for comparisont preprocesses arXiv abstracts, generates embeddings, reduces dimensionality (PCA/UMAP), clusters (K-Means), and evaluates quality (Silhouette, Davies–Bouldin). We also address class imbalance by focusing on top categories and show that UMAP + K-Means significantly outperforms PCA + K-Means for this dataset.
 
+Tecbook Link: https://drive.google.com/file/d/1q3kFhpPmWOrx2uozJcwRVG2t8N9AeUTM/view?usp=sharing
+
 # What’s implemented
 - Data source: via kagglehub → sumitm004/arxiv-scientific-research-papers-dataset.
 
